@@ -1,0 +1,8 @@
+.header {
+  background: linear-gradient(45deg, #e542ff, #00ffd1, #ff0001) 300% 300% no-repeat;
+  padding: 20px 0;
+}
+.header__title {
+  margin: 0;
+  text-align: center;
+}
