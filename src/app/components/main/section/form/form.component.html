@@ -1,4 +1,2 @@
-<form class="form">
-  <label class="form__label">Add new Task</label>
-  <input type="text" class="form__input">
-</form>
+<label class="form__label">Add new Task</label>
+<input required type="text" (keydown)="save($event)" [(ngModel)]="newTitle" class="form__input">

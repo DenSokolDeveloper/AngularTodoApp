@@ -20,7 +20,8 @@ import {FormComponent} from './components/main/section/form/form.component';
     SectionComponent,
     TodoListComponent,
     TodoItemComponent,
-    FormComponent
+    FormComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

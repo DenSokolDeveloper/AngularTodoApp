@@ -1,8 +1,11 @@
+<app-form
+  (newTodo)="addNewTodo($event)"
+></app-form>
 <ul class="list">
   <app-todo-item
     *ngFor="let todo of todos"
     [todo]="todo"
     (todoId)="deleteTodo($event)"
-    (todoAfterEdit)="updated($event)"
+    (todoAfterEdit)="updateTodo($event)"
   ></app-todo-item>
 </ul>

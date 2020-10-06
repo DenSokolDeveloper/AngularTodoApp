@@ -2,6 +2,7 @@
   <h3 class="list-item__title">{{todo.title}}</h3>
   <p class="list-item__text" [contentEditable]="todo.editing"
       [class.focused]="todo.editing"
+     (keypress)="newTodoText($event)"
   >{{todo.text}}</p>
   <button (click)="deleteTodo()" class="btn">Delete Todo</button>
   <button (click)="makeTodoEditable()" class="btn">Edit Todo</button>
